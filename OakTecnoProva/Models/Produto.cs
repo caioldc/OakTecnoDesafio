@@ -11,8 +11,8 @@ namespace OakTecnoProva.Models
         public int Codigo { get; set; }
         public string NomeProduto { get; set; }
         public string DescricaoProduto { get; set; }
-        public float ValorProduto { get; set; }
-        public Boolean DisponivelPVenda { get; set; }
+        public float PrecoProduto { get; set; }
+        public string DisponivelPVenda { get; set; }
     }
 }
 
